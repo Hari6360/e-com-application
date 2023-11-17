@@ -1,0 +1,163 @@
+[
+	{
+		"id": 1,
+		"name": "Men's Black Leather Jacket",
+		"price": 249.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.Mbkh9f8aumkJ2p3u28naTwHaJ4&pid=Api&P=0&h=180&w=200",
+		"category": "Men",
+		"description": "A classic and timeless men's black leather jacket that will never go out of style. Made from high-quality leather and featuring a slim fit, this jacket is perfect for both casual and formal occasions."
+	},
+	{
+		"id": 2,
+		"name": "Women's Red Dress",
+		"price": 199.99,
+		"image": "https://tse1.mm.bing.net/th?id=OIP.zsuu4amumx8qUeGv_H-DfQHaE8&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A stunning and sophisticated women's red dress that is sure to turn heads. Made from flowing fabric and featuring a flattering silhouette, this dress is perfect for a special occasion or a night out on the town."
+	},
+	{
+		"id": 3,
+		"name": "Men's Blue Jeans",
+		"price": 79.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.Y3ANfOLufCLIpL2Ie-i4ZwHaJ4&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A pair of versatile and stylish men's blue jeans that can be dressed up or down. Made from durable denim and featuring a relaxed fit, these jeans are perfect for everyday wear."
+	},
+	{
+		"id": 4,
+		"name": "Women's White Shirt",
+		"price": 49.99,
+		"image": "https://dress-shop.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdjlbfjouc%2Fimage%2Fupload%2Fv1582456993%2Fherhel-supply_clfrbp.jpg&w=640&q=75",
+		"category": "Women",
+		"description": "A classic and essential women's white shirt that is a staple in any wardrobe. Made from soft cotton and featuring a flattering fit, this shirt can be dressed up or down for any occasion."
+	},
+	{
+		"id": 5,
+		"name": "Men's Black Sneakers",
+		"price": 99.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.tBcKy8xaaM2zCpoIh9E7jgHaJ4&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A pair of comfortable and stylish men's black sneakers that are perfect for everyday wear. Made from durable leather and featuring a supportive sole, these sneakers are perfect for running errands, going to the gym, or just hanging out with friends."
+	},
+	{
+		"id": 6,
+		"name": "Women's Pink Skirt",
+		"price": 69.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.E65IWa4tuckI7lHVAcbeVwHaJ4&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A flirty and feminine women's pink skirt that is perfect for a summer day. Made from flowing fabric and featuring a flattering A-line silhouette, this skirt is perfect for a picnic in the park, a day at the beach, or a night out on the town."
+	},
+	{
+		"id": 7,
+		"name": "Men's Grey Hoodie",
+		"price": 59.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.Alq8YN8ZQGKb4LL7sg-kSAHaJ4&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A cozy and comfortable men's grey hoodie that is perfect for lounging around or layering on colder days. Made from soft fleece and featuring a relaxed fit, this hoodie is perfect for staying warm and stylish at home."
+	},
+	{
+		"id": 8,
+		"name": "Men's White T-Shirt",
+		"price": 29.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.ooQ-pFfjUUsagog1oFFYwwHaJ4&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A classic and essential men's white T-shirt that is a staple in any wardrobe. Made from soft cotton and featuring a comfortable fit, this T-shirt can be dressed up or down for any occasion."
+	},
+	{
+		"id": 10,
+		"name": "Women's Blue Blazer",
+		"price": 149.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.u1xPSIxB3Ur4ReZ-Tsy8wQHaIo&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A polished and professional women's blue blazer that adds a touch of sophistication to any outfit. Made from high-quality fabric and featuring a tailored fit, this blazer is perfect for work, special occasions, or just elevating your everyday style."
+	},
+	{
+		"id": 11,
+		"name": "Men's Brown Belt",
+		"price": 34.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.bBEM4xyMM1S3sDLVTRQUKwHaJE&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A stylish and durable men's brown belt that complements any outfit. Made from genuine leather and featuring a classic design, this belt is perfect for both casual and formal occasions."
+	},
+
+	{
+		"id": 15,
+		"name": "Men's White Sneakers",
+		"price": 89.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.PJqFs43_Uen40wg5QuQn5AHaHa&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A pair of comfortable and stylish men's white sneakers that are perfect for everyday wear or casual outings. Made from breathable fabric and featuring a supportive sole, these sneakers are perfect for running errands, going to the gym, or just hanging out with friends."
+	},
+	{
+		"id": 16,
+		"name": "Men's Blue Hoodie",
+		"price": 69.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.N8p_QVrsClSdkv7Dc0hu6wHaHa&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A warm and comfortable men's blue hoodie that is perfect for lounging around or layering on colder days. Made from soft fleece and featuring a relaxed fit, this hoodie is perfect for staying warm and stylish at home."
+	},
+	{
+		"id": 18,
+		"name": "Women's White Jeans",
+		"price": 99.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.qvQG74ASJ-VwFx5pk33sNwHaJ4&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A stylish and versatile women's white jeans that can be dressed up or down for any occasion. Made from durable denim and featuring a flattering fit, these jeans are perfect for everyday wear to special occasions."
+	},
+	{
+		"id": 19,
+		"name": "Men's Black Cap",
+		"price": 29.99,
+		"image": "https://tse1.mm.bing.net/th?id=OIP.uacXKAdt-g8EMBXN9Fiw1wHaHa&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A cool and casual men's black cap that adds a sporty touch to any outfit. Made from breathable fabric and featuring a comfortable fit, this cap is perfect for everyday wear, outdoor activities, or just adding a touch of style."
+	},
+	{
+		"id": 20,
+		"name": "Women's Pink Scarf",
+		"price": 34.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.jPKDQ_DJXazhY8TeJCxkMAHaIm&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A soft and stylish women's pink scarf that adds a pop of color to any outfit. Made from luxurious fabric and featuring a versatile design, this scarf can be worn around the neck, as a shawl, or even as a headwrap."
+	},
+	{
+		"id": 21,
+		"name": "Men's Brown Leather Shoes",
+		"price": 129.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.Aol3DtgGCTLo7chOG4zQjgHaHN&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A pair of stylish and sophisticated men's brown leather shoes that are perfect for any occasion. Made from high-quality leather and featuring a classic design, these shoes are perfect for work, special occasions, or just adding a touch of polish to your everyday style."
+	},
+	{
+		"id": 22,
+		"name": "Women's Black Ankle Boots",
+		"price": 89.99,
+		"image": "https://tse3.mm.bing.net/th?id=OIP.l3fRXD2rUzaaqMKJ_e_lMQHaIR&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A pair of edgy and stylish women's black ankle boots that add a touch of attitude to any outfit. Made from durable materials and featuring a sleek design, these boots are perfect for both everyday wear and special occasions."
+	},
+	{
+		"id": 23,
+		"name": "Men's Grey Cardigan",
+		"price": 59.99,
+		"image": "https://tse1.mm.bing.net/th?id=OIP.z9kcJOuFNyxUtpBV5UJvpgHaJQ&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A cozy and comfortable men's grey cardigan that is perfect for layering on colder days. Made from soft knit fabric and featuring a relaxed fit, this cardigan is perfect for staying warm and stylish at home, work, or on the go."
+	},
+	{
+		"id": 24,
+		"name": "Women's Floral Dress",
+		"price": 149.99,
+		"image": "https://tse2.mm.bing.net/th?id=OIP.DZQi0gddYY6aVEeb90qvFAHaLM&pid=Api&P=0&h=180",
+		"category": "Women",
+		"description": "A feminine and flirty women's floral dress that is perfect for any summer occasion. Made from flowing fabric and featuring a flattering silhouette, this dress is perfect for a picnic in the park, a day at the beach, or a summer night out."
+	},
+	{
+		"id": 25,
+		"name": "Men's Denim Jacket",
+		"price": 99.99,
+		"image": "https://tse4.mm.bing.net/th?id=OIP.PBYuWnkHqf6pg1VbX0kbmwHaJ4&pid=Api&P=0&h=180",
+		"category": "Men",
+		"description": "A versatile and stylish men's denim jacket that can be dressed up or down for any occasion. Made from durable denim and featuring a relaxed fit, this jacket is perfect for everyday wear, outdoor activities, or adding a touch of edge to your style."
+	}
+]
