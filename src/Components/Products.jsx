@@ -51,24 +51,26 @@ const Products = () => {
 						className=" rounded-lg shadow-lg p-4 flex  flex-wrap flex-col text-white text-sm ">
 						<div className="flex justify-center items-center">
 							<img
-								className="align-center max-h-48 w-150"
+								className="object-cover object-center w-full h-[340px]"
 								src={product.image}
 								alt={product.name}
 							/>
 						</div>
-						<div className=" p-3 mx-auto mt-6 text-center flex-grow-0">
-							<h1 className="text-2xl font-semibold">{product.name}</h1>
-							<p className="text-gray-500  mt-3">
+						<div className="   mt-2  flex-grow-0">
+							<h1 className="text-xl text-start font-semibold">
+								{product.name}
+							</h1>
+							{/* <p className="text-gray-500  mt-3">
 								{truncateDescription(product.description, 150)}
-							</p>
-							<p className="mt-4">${product.price}</p>
-							<div className="mt-auto">
+							</p> */}
+							<p className="mt-4  ">${product.price}</p>
+							{/* <div className="mt-auto">
 								<button
 									className="bg-blue-500 hover:bg-black text-white px-4 py-2 mt-5 bottom-0 rounded-md  "
 									onClick={() => addtoCart(product)}>
 									Add to Cart
 								</button>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				))}
