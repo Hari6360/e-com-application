@@ -1,15 +1,21 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "../Components/Navbar";
-import Carousel from "../Components/Carousel";
 import Products from "../Components/Products";
+import Women from "../Components/Women";
+import Men from "../Components/Men";
+import Carousel from "../Components/Carousel";
 
 const Home = () => {
 	return (
-		<div className="bg-slate-950">
+		<Router>
 			<Navbar />
-			<Carousel />
-			<Products />
-		</div>
+			<Routes>
+				<Route path="/" element={<Products />} />
+				<Route path="/women" element={<Women />} />
+				<Route path="/men" element={<Men />} />
+			</Routes>
+		</Router>
 	);
 };
 

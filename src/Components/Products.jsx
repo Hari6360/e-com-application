@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import productsData from "../data.json";
+import Carousel from "./Carousel";
 
 const Products = () => {
 	const [products, setProducts] = useState([]);
@@ -17,7 +18,9 @@ const Products = () => {
 	};
 	return (
 		<>
-			<div className="relative">
+			<Carousel />
+
+			<div className="relative  bg-gray-900">
 				<div className="flex my-16 h-[450px] ">
 					<div className="absolute top-0 left-0 z-10 text-white text-3xl font-extrabold ml-56">
 						CATEGORIES
@@ -44,11 +47,11 @@ const Products = () => {
 					</div>
 				</div>
 			</div>
-			<div className="container mx-auto grid grid-cols-4 gap-4 p-1">
+			<div className="container mx-auto grid grid-cols-4 gap-1 p-4  bg-gray-900">
 				{products.map((product) => (
 					<div
 						key={product.id}
-						className=" rounded-lg shadow-lg p-4 flex  flex-wrap flex-col text-white text-sm ">
+						className=" rounded-lg shadow-lg p-4 flex  flex-wrap flex-col gap-1 text-white text-sm ">
 						<div className="flex justify-center items-center">
 							<img
 								className="object-cover object-center w-full h-[340px]"
