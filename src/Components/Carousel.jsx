@@ -21,14 +21,13 @@ const Carousel = () => {
 		},
 	];
 
-	console.log("Current Slide:", currentSlide);
 	return (
 		<div className="flex items-center justify-center h-[550px] relative">
 			<div className="relative overflow-hidden w-full h-[550px]">
 				{slidesData.map((slide, index) => (
 					<div
 						key={slide.id}
-						className={`absolute top-0 left-0 w-full h-full transition-transform duration-1000  scroll-smooth  ${
+						className={`absolute top-0 left-0 w-full h-full transition-transform duration-1000 ease-in-out ${
 							index === currentSlide ? "translate-x-0" : "translate-x-full"
 						}`}>
 						<img
@@ -39,11 +38,11 @@ const Carousel = () => {
 					</div>
 				))}
 			</div>
-			<div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+			<div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
 				{slidesData.map((_, index) => (
 					<button
 						key={index}
-						className={`w-4 h-4 rounded-full ${
+						className={`w-6 h-6 rounded-full focus:outline-none ${
 							index === currentSlide ? "bg-white" : "bg-gray-500"
 						}`}
 						onClick={() => setCurrentSlide(index)}></button>

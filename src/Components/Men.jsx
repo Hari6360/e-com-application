@@ -4,16 +4,34 @@ import productsData from "../data.json";
 const Men = () => {
 	const [products, setProducts] = useState([]);
 	const [activeButton, setActiveButton] = useState("Men");
+	const [sorted, setSorted] = useState("price");
 
 	useEffect(() => {
 		const mensProducts = productsData.filter(
 			(product) => product.category === activeButton
 		);
-		setProducts(mensProducts);
-	}, [activeButton]);
+		let sortedProducts = [...mensProducts];
+
+		switch (sorted) {
+			case "lowToHigh":
+				sortedProducts.sort((a, b) => a.price - b.price);
+				break;
+			case "highToLow":
+				sortedProducts.sort((a, b) => b.price - a.price);
+				break;
+			default:
+				sortedProducts.sort((a, b) => a.price - b.price);
+				break;
+		}
+		setProducts(sortedProducts);
+	}, [activeButton, sorted]);
 
 	const handleButtonClick = (category) => {
-		setActiveButton(category.toLowerCase());
+		setActiveButton(category);
+	};
+
+	const handleSortChange = (selectedSort) => {
+		setSorted(selectedSort);
 	};
 
 	return (
@@ -43,7 +61,8 @@ const Men = () => {
 						<select
 							className="bg-gray-500 border-white border-l p-2"
 							name="SortBy"
-							id="sortSelect">
+							id="sortSelect"
+							onChange={(e) => handleSortChange(e.target.value)}>
 							<option value="price">Price</option>
 							<option value="lowToHigh">Low to High</option>
 							<option value="highToLow">High to Low</option>
