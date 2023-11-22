@@ -5,7 +5,9 @@ const Navbar = () => {
 	return (
 		<div>
 			<div className="flex justify-between bg-gray-700 p-4 text-white">
-				<div className="text-2xl font-bold">Logo</div>
+				<div className="text-2xl font-bold">
+					<Link to="/">Logo</Link>
+				</div>
 				<div className="flex items-center space-x-8 ">
 					<input
 						type="search"
