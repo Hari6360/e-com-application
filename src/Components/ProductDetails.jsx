@@ -1,14 +1,12 @@
-// ProductDetails.jsx
-
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import productsData from "../data.json";
-import { useCart } from "../Context/CartContextProvider"; // Correct import
+import { useCart } from "../Context/CartContextProvider";
 
 const ProductDetails = () => {
 	const { id } = useParams();
 	const product = productsData.find((p) => p.id === parseInt(id));
-	const { handleAddToCart } = useCart(); // Use the custom hook here
+	const { handleAddToCart } = useCart(); 
 
 	const [quantity, setQuantity] = useState(1);
 

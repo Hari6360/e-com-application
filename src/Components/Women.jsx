@@ -18,7 +18,7 @@ const Women = () => {
 				break;
 			case "highToLow":
 				sortedProducts.sort((b, a) => b.price - a.price);
-
+				break;
 			default:
 				sortedProducts.sort((a, b) => a.price - b.price);
 				break;
