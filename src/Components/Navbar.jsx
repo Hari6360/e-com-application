@@ -20,28 +20,8 @@ const Navbar = () => {
 		<nav className="bg-gray-700 p-4 text-white">
 			<div className="container mx-auto flex justify-between items-center">
 				<div className="text-2xl font-bold">
-					<Link to="/">Logo</Link>
+					<Link to="/">FHUB</Link>
 				</div>
-
-				{/* <div className="lg:hidden">
-					<button
-						onClick={toggleMobileMenu}
-						className="text-white focus:outline-none focus:shadow-outline">
-						<svg
-							className="h-6 w-6"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg">
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M4 6h16M4 12h16m-7 6h7"
-							/>
-						</svg>
-					</button>
-				</div> */}
 
 				<div className="md:hidden">
 					<button
