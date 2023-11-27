@@ -34,11 +34,11 @@ const ProductDetails = () => {
 				<div className="lg:w-1/2 mb-8 lg:mb-0">
 					<img
 						src={product.image}
-						className="h-96 lg:h-auto w-full object-cover lg:w-96 rounded-lg"
+						className="h-96 lg:h-auto w-full object-cover lg:w-96 rounded-lg lg:ml-32"
 						alt={product.name}
 					/>
 				</div>
-				<div className="lg:w-1/2 lg:ml-8">
+				<div className="lg:w-1/2 lg:ml-32 mr-16 ">
 					<h2 className="text-4xl font-bold mb-4">{product.name}</h2>
 					<p className="text-xl font-semibold mb-4">${product.price}</p>
 					<p className="text-gray-300 mb-4">{product.description}</p>
