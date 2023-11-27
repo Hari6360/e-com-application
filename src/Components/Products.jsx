@@ -50,9 +50,9 @@ const Products = () => {
 				{products.map((product) => (
 					<Link to={`/products/${product.id}`} key={product.id}>
 						<div className="rounded-lg shadow-lg p-4 flex flex-col text-white text-sm bg-gray-800">
-							<div className="flex justify-center items-center">
+							<div className="flex justify-center items-center h-[340px] w">
 								<img
-									className="object-cover object-center w-full h-[340px] rounded"
+									className="w-[300px] h-full rounded"
 									src={product.image}
 									alt={product.name}
 								/>
