@@ -21,11 +21,13 @@ const Cart = () => {
 				) : (
 					<div>
 						{cart.map((item) => (
-							<div key={item.id} className="flex items-center mb-4">
+							<div
+								key={item.id}
+								className="flex flex-col lg:flex-row items-center mb-4">
 								<img
 									src={item.image}
 									alt={item.name}
-									className="h-16 w-16 object-cover rounded mr-4"
+									className="h-16 w-16 object-cover rounded mb-4 lg:mb-0 lg:mr-4"
 								/>
 								<div className="flex-grow">
 									<h3 className="text-xl font-bold">{item.name}</h3>

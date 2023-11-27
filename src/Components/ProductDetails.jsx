@@ -6,7 +6,7 @@ import { useCart } from "../Context/CartContextProvider";
 const ProductDetails = () => {
 	const { id } = useParams();
 	const product = productsData.find((p) => p.id === parseInt(id));
-	const { handleAddToCart } = useCart(); 
+	const { handleAddToCart } = useCart();
 
 	const [quantity, setQuantity] = useState(1);
 
@@ -30,18 +30,18 @@ const ProductDetails = () => {
 
 	return (
 		<div className="text-white">
-			<div className="container mx-20 my-10 flex">
-				<div className="w-1/2">
+			<div className="container mx-auto my-10 flex flex-col lg:flex-row">
+				<div className="lg:w-1/2 mb-8 lg:mb-0">
 					<img
 						src={product.image}
-						className="h-auto w-full rounded-lg"
+						className="h-96 lg:h-auto w-full object-cover lg:w-96 rounded-lg"
 						alt={product.name}
 					/>
 				</div>
-				<div className="mx-12">
+				<div className="lg:w-1/2 lg:ml-8">
 					<h2 className="text-4xl font-bold mb-4">{product.name}</h2>
 					<p className="text-xl font-semibold mb-4">${product.price}</p>
-					<p className="text-gray-300 mr-56">{product.description}</p>
+					<p className="text-gray-300 mb-4">{product.description}</p>
 
 					<div className="flex mt-4">
 						<button
