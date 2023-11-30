@@ -16,7 +16,7 @@ const Products = () => {
 
 			<div className="relative bg-gray-900">
 				<div className="flex flex-col sm:flex-row my-16 h-auto sm:h-[450px]">
-					<div className="absolute top-0 left-0 z-10 text-white text-3xl font-extrabold ml-8 sm:ml-56">
+					<div className="absolute left-0 z-10 text-white text-3xl font-extrabold ml-8 sm:ml-56">
 						CATEGORIES
 					</div>
 					<Link to="/Women">
